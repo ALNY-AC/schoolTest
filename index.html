@@ -3,31 +3,235 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>校园点评 | 最真实的资料</title>
+		<title>校园点评 | 吐槽你的学校吧！</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/nav.css" />
+		<style type="text/css">
+			* {
+				font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+			}
+			
+			body {
+				/*background: #363B40;*/
+			}
+			
+			.box-head {
+				/*background-image: url(img/1.jpg);*/
+				/*background-color: orange;*/
+				/*background-image: linear-gradient(-134deg, #FF9800 0%, #F76B1C 100%);*/
+				background-color: rgb(69, 161, 189);
+				background-size: 100%;
+				background-position: center center;
+				height: 70vh;
+			}
+			
+			.nav-title {
+				position: relative;
+				font-size: 50px;
+				color: #fff;
+				text-align: center;
+				font-weight: bold;
+				/*top: 40%;*/
+				letter-spacing: 5px;
+			}
+			
+			.container-text {
+				margin-top: 20px;
+				text-align: center;
+			}
+			
+			.text-box h4 {
+				font-weight: bold;
+				margin: 20px;
+			}
+			
+			*::selection {
+				/*background-color: #ff0;*/
+				/*color: #FFFF00;*/
+			}
+			
+			.title-h1 {
+				font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+				text-align: center;
+				margin: 0;
+			}
+			
+			.goButtonBox {
+				position: relative;
+				width: 350px;
+				margin: 0 auto;
+				height: 50px;
+				padding-top: 20px;
+			}
+			
+			.goButton {
+				/*width: 150px;*/
+				padding: 0 10px;
+				/*height: 50px;*/
+				line-height: 45px;
+				text-align: center;
+				border: solid 2px #fff;
+				-webkit-transition: all 0.2s;
+				-moz-transition: all 0.2s;
+				-ms-transition: all 0.2s;
+				-o-transition: all 0.2s;
+				transition: all 0.2s;
+			}
+			
+			.goButton-right {
+				float: right;
+			}
+			
+			.goButton-left {
+				float: left;
+			}
+			
+			.goButton a {
+				display: block;
+				text-decoration: none;
+				color: #fff;
+				-webkit-transition: all 0.2s;
+				-moz-transition: all 0.2s;
+				-ms-transition: all 0.2s;
+				-o-transition: all 0.2s;
+				transition: all 0.2s;
+			}
+			
+			.goButton:hover {
+				background-color: #fff;
+			}
+			
+			.goButton:hover a {
+				color: #000;
+			}
+			
+			.box-position {
+				/*background-color: #f00;*/
+				position: relative;
+				top: 30%;
+			}
+			
+			.text-box {
+				background-color: #6cd5bc;
+				color: #fff;
+				padding-top: 50px;
+			}
+			
+			.panel {
+				color: #000;
+			}
+			
+			.box-w {
+				background-color: rgb(69, 161, 189);
+				padding: 100px;
+			}
+			
+			.box-w-info {
+				color: #fff;
+				font-size: 14px;
+				text-align: center;
+				display: block;
+			}
+		</style>
 
 	</head>
 
 	<body>
+		<div class="nav">
 
-		<div class="container">
-			<div class="row clearfix">
-				<div class="col-md-12 column">
-					<div class="jumbotron">
-						<h1>
-							Hello, world!
-						</h1>
-						<p>
-							This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-						</p>
-						<p>
-							<a class="btn btn-primary btn-large" href="#">Learn more</a>
-						</p>
+			<ul class="nav_box">
+				<li>
+					<a href="" class="active">
+						首页
+					</a>
+				</li>
+				<li>
+					<a href="">
+						学校
+					</a>
+				</li>
+				<li>
+					<a href="">
+						关于
+					</a>
+				</li>
+				<li>
+					<a href="">
+						宣传
+					</a>
+				</li>
+				<li>
+					<a href="" class="contact">
+						下载App
+					</a>
+				</li>
+			</ul>
+
+		</div>
+		<div class="box-head">
+
+			<div class="box-position">
+
+				<div class="nav-title">
+					校园点评
+					<p>再也不用问大姑二姨这个学校怎么样了！</p>
+				</div>
+				<div class="goButtonBox">
+					<div class="goButton goButton-left">
+						<a href="">我想找好学校 Go -></a>
+					</div>
+					<div class="goButton goButton-right">
+						<a href="">我想吐槽学校 Go -></a>
 					</div>
 				</div>
 			</div>
+
+		</div>
+		<div class="text-box">
+			<br />
+			<h1 class="title-h1">绝对没有水军的评论，也没有空洞的官文，在这里，任何学校的真实情况全部暴露出来</h1>
+			<br /><br /><br />
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-md-3 column">
+						<h4>
+							点评和吐槽
+						</h4>
+
+						<p>
+							你可以将这里的一切当做是选择学校的依据，因为我们的校园点评信息是最真实的。
+						</p>
+					</div>
+					<div class="col-md-3 column">
+						<h4>
+							视频、图片
+						</h4>
+						<p>
+							在这里你会看到真实的视频和图片对某个学校的介绍，而不是空洞的官文和水军的评论。
+						</p>
+					</div>
+					<div class="col-md-3 column">
+						<h4>深入学校，实地查看</h4>
+						<p>
+							我们会派出工作人员，对学校进行现场获取点评的数据。
+						</p>
+					</div>
+					<div class="col-md-3 column">
+						<h4>学校板块</h4>
+
+						<p>就像是论坛的板块一样，每个学校都有专属的板块。而对每个学校的评测也会发布到这些板块上。</p>
+					</div>
+				</div>
+			</div>
+
+			<br /><br />
+
 		</div>
 
+		<div class="box-w">
+
+			<span class="box-w-info">源计划科技</span>
+		</div>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 	</body>
